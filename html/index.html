@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0&icon_names=nest_clock_farsight_analog" />
     <title>Restaurante-Sants</title>
 </head>
@@ -13,7 +18,7 @@
             <img class="img" src="../img/logo.png" alt="">
         </div>
 
-        <nav>
+        <nav class="nav_menu">
             <ul class="contain_link">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
@@ -45,31 +50,32 @@
 
         <section class="max_size container_happy_hour">
             <div class="contain_data">
-                <p>Disfrutá nuestro</p>
+                <p class="happyHour_p">Disfrutá nuestro</p>
                 <h2>HAPPY HOUR</h2>
-                <p>
+                <p class="happyHour_p">
                     Tanto en el patio como en la terraza, disfrutá de nuestros appetizers, tragos y eventos especiales.
                 </p>
-
+                <br>
                 <ul class="locales_happy_hour">
                     <li>
-                        <p>Palermo</p>
+                        <p class="happyHour_p happyhour_ciudad">Palermo</p>
                         <span class="material-symbols-outlined">nest_clock_farsight_analog</span>
                         <time datetime="20:00">18:00 PM</time> - <time datetime="02:00">02:00 AM</time>
                     </li>
                     <li>
-                        <p>Hurlingham</p>
+                        <p class="happyHour_p happyhour_ciudad">Hurlingham</p>
                         <span class="material-symbols-outlined">nest_clock_farsight_analog</span>
                         <time datetime="20:00">20:00 PM</time> - <time datetime="02:00">02:00 AM</time>
                     </li>
                     <li>
-                        <p>Puerto Madero</p>
+                        <p class="happyHour_p happyhour_ciudad">Puerto Madero</p>
                         <span class="material-symbols-outlined">nest_clock_farsight_analog</span>
                         <time datetime="20:00">17:00 PM</time> - <time datetime="02:00">02:00 AM</time>
                     </li>
                 </ul>
-
-                <p><a href="#" class="info-link">Más información</a></p>
+                <div class=" contain_btn">
+                    <p class="btn_happyHour"><a href="#" class="info_link">Más información</a></p>
+                </div>
             </div>
             <div>
                 <div class="contain_img_fest">
@@ -79,40 +85,61 @@
         </section>
 
         <section class="max_size container_dining">
-            <div class="contain_data">
+            <div class="contain_data deningRoom">
                 <h3>chefs dining room</h3>
-                <p>Brindamos salon para eventos privado  de 20 a 50 personas</p>
+                <p class="cdr_txt">Brindamos salon para eventos privado  de 20 a 50 personas</p>
                 <br>
-                <p>Especializados en brindar servicios en:</p>
+                <p class="cdr_txt">Especializados en brindar servicios en:</p>
                 <br>
-                <ul>
+                <ul class="contain_listServices">
                     <li>reuniones de negocio</li>
                     <li>familiares</li>
                     <li>cumpleaños</li>
                     <li>bautismos</li>
                     <li>celebraciones</li>
                 </ul>
-                <p><a href="#" class="info-link">Más información</a></p>
+                <div class="contain_btn">
+                    <p class="cdr_txt btn_happyHour"><a href="#" class="info-link">Más información</a></p>
+                </div>
             </div>
             <div class="contain_img_fest"> 
                 <img class="img" src="../img/davide-boscolo-bar_mesa.jpg" alt="">
             </div>
         </section>
 
-        <section class="max_size">
-            <h3>Platos estrella</h3>
+        <section class="max_size container_gridFood">
             <div class="container">
-                <div class="item_a">A</div>
-                <div class="item_b">B</div>
-                <div class="item_c">C</div>
-                <div class="item_d">D</div>
-                <div class="item_e">E</div>
-                <div class="item_f">F</div>
+                <div class="item item_a"></div>
+                <div class="item item_b"></div>
+                <div class="item item_c"></div>
+                <div class="item item_d"></div>
+                <div class="item item_e"></div>
+                <div class="item item_f"></div>
+                <div class="item item_g"></div>
+                <div class="item item_h"></div>
             </div>
         </section>
 
         <section class="max_size">
             <h3>Locales</h3>
+            <div class="container_local">
+                <div class="container_localesImg">
+                    <div><img class="img_local img" src="../img/amie-johnson-beer.jpg" alt=""></div>
+                    <div><img class="img_local img" src="../img/camila-pusch-eP9lFYMjM88-unsplash.jpg" alt=""></div>
+                    <div><img class="img_local img" src="../img/duane-mendes-img3.jpg" alt=""></div>
+                    <div><img class="img_local img" src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                    <div><img class="img_local img" src="../img/cody-chan-img2.jpg" alt=""></div>
+                </div>
+                <div class="contain_ImgLocal">
+                    <img id="local_Img" class="img" src="../img/cody-chan-img2.jpg" alt="">
+                </div>
+                <div>
+                    <p class="contain_nombreLocal">SANTS - <span id="ciudad">ciudad</span></p>
+                    <p id="ubi_local">ubicacion</p>
+                    <p id="hr_local">horario</p>
+                    <p class><a href="#" class="info-link">Reserbar</a></p>
+                </div>
+            </div>
         </section>
     </main>
 

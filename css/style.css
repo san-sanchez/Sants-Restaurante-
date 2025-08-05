@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
 }
 
 header {
@@ -22,17 +23,29 @@ header {
     height: 100%;
     object-fit: cover;
 }
+.nav_menu{
+    width: 50%;
+}
 .contain_link{
     display: flex;
+    height: 100%;
     flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: 700;
 }
 .contain_link li {
     margin: 3%;
     list-style: none;
 }
+.contain_link li :hover {
+    border-bottom: 0.5vh solid #C6A15B;
+}
 .contain_link a {
     text-decoration: none;
-    color: #ffcf56;
+    color: #C6A15B;
 }
 
 .container_img_inicio{
@@ -53,7 +66,9 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(2) {
-    background-color: steelblue;
+    background-color: #080d10;
+    background-color: #005639;
+    
 }
 
 section:nth-of-type(3) {
@@ -73,13 +88,140 @@ section:nth-of-type(4) {
 }
 .contain_data{
     width: 70%;
+    color: aliceblue;
+    margin-left:3%;
 }
+.happyHour_p{
+    font-size: 5vh;
+}
+.happyhour_ciudad{
+    font-weight: 600;
+    color: #e42510;
+    font-size: 6vh;
+}
+.contain_data h2{
+    font-size: 19vh;
+    font-style: italic;
+    color: #e42510;
+    text-align: center;
+}
+.contain_data h3{
+    font-size:clamp(14vh,15vh,17vh);
+    font-style: italic;
+    color: #e42510;
+    
+}
+.cdr_txt{
+    font-size: 6vh;
+}
+.cdr_txt a{
+    text-decoration: none;
+    color: #005639;
+}
+.contain_btn{
+    display: flex;
+    height: auto;
+    margin: clamp(0%,2vh,8vh);
+    justify-content: center;
+    align-items: center;
+}
+.info_link{
+    text-decoration: none;
+    color: #000000;
+}
+.btn_happyHour{
+    background-color: #ffcf56;
+    padding: 3vh 8vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contain_listServices{
+    list-style: none;
+    margin-left: 2vw;
+    font-size:clamp(2vh,3.5vh,5vh);
+}
+
 .contain_img_fest{
     width: auto;
     height: 100%;
 }
+
+.container_gridFood{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container{
-    
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item{
+    background-color: #ffcf56;
+    border-radius: 10px;
+}
+.item_a{
+    grid-area: 1/1/3/2;
+    background-image: url(../img/duane-mendes-img3.jpg);
+    background-size:cover;
+}
+.item_b{
+    background-image: url(../img/food.jpg);
+    background-size:cover;
+}
+.item_c{
+    grid-area: 1/3/2/5;
+    background-image: url(../img/martin-baron-B-oHZfwVSqA-unsplash.jpg);
+    background-size: cover;
+}
+.item_d{
+    grid-area: 2/2/4/3;
+    background-image: url(../img/loes-klinker-img5.jpg);
+    background-size:cover;
+}
+.item_e{
+    background-image: url(../img/martin-baron-Z_CmX-SlOh4-unsplash.jpg);
+    background-size:cover;
+}
+.item_f{
+    background-image: url(../img/sander-dalhuisen-xIDf1bUYCf8-unsplash.jpg);
+    background-size:cover;
+}
+.item_g{
+    background-image: url(../img/450_1000.jpg);
+    background-size:cover;
+}
+.item_h{
+    grid-area: 3/3/4/5;
+    background-image: url(../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg);
+    background-size:cover;
+    background-position-y: center;
+}
+.img_galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container_local{
+    display: flex;
+    justify-content: start;
+}
+.container_localesImg{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.contain_ImgLocal{
+    width:30%;
+    height: 92.4vh;
+    margin-left: 3%;
+}
+.img_local{
+    height: 16vh;
+    margin-bottom: 10%;
 }
 
 footer{
