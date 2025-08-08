@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <title>Restaurante-Sants</title>
 </head>
 <body>
     <header>
-        <div class="contain_logo">
-            <img src="" alt="">
+        <div class="container_logo">
+            <img class="img" src="../img/logo.png" alt="">
         </div>
 
-        <nav>
-            <ul>
+        <nav class="nav_menu">
+            <ul class="contain_link">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="menu.html">Menu</a></li>
@@ -22,27 +24,25 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1> Contacto</h1>
-        </section>
-        <section>
-            <div>
-                <form action="">
-                    <div>
+        <section class="container_contacto" >
+            <div class="container_oldForm">
+                <h1 class="h1">Contactanos</h1>
+                <form class="container_form" action="">
+                    <div class="contain_input">
                         <p> nombre y apellido</p>
-                        <input type="text">
+                        <input class="input" type="text">
                     </div>
-                    <div>
+                    <div class="contain_input">
                         <p>telefono</p>
-                        <input type="text">
+                        <input class="input" type="text">
                     </div>
-                    <div>
+                    <div class="contain_input">
                         <p>email</p>
-                        <input type="text">
+                        <input class="input" type="text">
                     </div>
-                    <div>
+                    <div class="contiain_select">
                         <p>Restaurante</p>
-                        <select name="" id="">
+                        <select class="select"  name="" id="">
                             <option value="">Palermo</option>
                             <option value="">Pilar</option>
                             <option value="">Hurlingham</option>
@@ -50,16 +50,19 @@
                             <option value="">Castelar</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="contain_text">
                         <p>Mensaje</p>
-                        <textarea name="" id=""></textarea>
+                        <textarea name="" class="textArea" id=""></textarea>
                     </div>
                 </form>
-                <p>Los campos son obligatorios</p>
-                <button>Enviar</button>
+                <div class="contain_btn_form">
+                    <p>Los campos son obligatorios</p>
+                    <button class="btn_form">Enviar</button>
+                </div>
+                
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="contain_img_form">
+                <img class="img_form" src="../img/camila-pusch-eP9lFYMjM88-unsplash.jpg" alt="">
             </div>
         </section>
     </main>

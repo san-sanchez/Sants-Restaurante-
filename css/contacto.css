@@ -1,0 +1,87 @@
+.container_contacto{
+    width: 100%;
+    height: 100vh;
+    background-color: darkorange;
+    color: aliceblue;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.h1{
+    color: rgba(219, 6, 6, 0.986);
+    font-size: 7vw;
+    font-style: italic;
+    background-color: darkorange;
+}
+.container_oldForm{
+    width: 70%;
+}
+.container_form{
+    width: 100%;
+    height: 67%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain_input{
+    width: 70%;
+    height: auto;
+    margin: 1%;
+}
+
+.input{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(111, 1, 180);
+    border: none;
+    outline: none;
+}
+.contiain_select{
+    width: 70%;
+    margin: 1%;
+}
+.select{
+    width: 100%;
+    font-size: 1.7vw;
+    background-color: rgb(111, 1, 180);
+    outline: none;
+    color: #fff;
+    border: none;
+}
+.contain_text{
+    width: 70%;
+    height: 18vh;
+    margin: 1%;
+}
+.textArea{
+    width: 100%;
+    height: 80%;
+    resize: none;
+    outline: none;
+    background-color: rgb(111, 1, 180);
+    border: none;
+    color: aliceblue;
+    font-size: 1.3vw;
+}
+.contain_img_form{
+    height: 100vh;
+    width: auto;
+}
+.img_form{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contain_btn_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_form{
+    background-color: aqua;
+    padding: 2% 9%;
+    outline: none;
+    margin: 1%;
+}

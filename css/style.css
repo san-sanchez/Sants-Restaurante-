@@ -1,52 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
-}
-
-header {
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color:#005639;
-    justify-content: space-between;
-}
-.container_logo{
-    height: 100%;
-    width: auto;
-    background-color: #ffcf56;
-}
-.img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.nav_menu{
-    width: 50%;
-}
-.contain_link{
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    font-size: 3vh;
-    font-style: italic;
-    font-weight: 700;
-}
-.contain_link li {
-    margin: 3%;
-    list-style: none;
-}
-.contain_link li :hover {
-    border-bottom: 0.5vh solid #C6A15B;
-}
-.contain_link a {
-    text-decoration: none;
-    color: #C6A15B;
-}
 
 .container_img_inicio{
     width: 100%;
@@ -97,22 +48,32 @@ section:nth-of-type(4) {
 .happyhour_ciudad{
     font-weight: 600;
     color: #e42510;
-    font-size: 6vh;
+    font-size: 3vw;
+}
+.locales_happy_hour{
+    display: flex;
+}
+.locales_happy_hour li{
+    list-style: none;
+    margin: 2vw;
+}
+.time{
+    font-size: 1.4vw;
 }
 .contain_data h2{
-    font-size: 19vh;
+    font-size: 8vw;
     font-style: italic;
     color: #e42510;
     text-align: center;
 }
 .contain_data h3{
-    font-size:clamp(14vh,15vh,17vh);
+    font-size:clamp(5vw,6.5vw,8vw);
     font-style: italic;
     color: #e42510;
     
 }
 .cdr_txt{
-    font-size: 6vh;
+    font-size: 3vw;
 }
 .cdr_txt a{
     text-decoration: none;
@@ -138,7 +99,7 @@ section:nth-of-type(4) {
 .contain_listServices{
     list-style: none;
     margin-left: 2vw;
-    font-size:clamp(2vh,3.5vh,5vh);
+    font-size:clamp(1vw,2vw,2vw);
 }
 
 .contain_img_fest{
@@ -157,11 +118,12 @@ section:nth-of-type(4) {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    gap: 1.7%;
 }
 .item{
     background-color: #ffcf56;
     border-radius: 10px;
+    margin-bottom: 1vh;
 }
 .item_a{
     grid-area: 1/1/3/2;
@@ -224,6 +186,3 @@ section:nth-of-type(4) {
     margin-bottom: 10%;
 }
 
-footer{
-    background-color: #000000;
-}
