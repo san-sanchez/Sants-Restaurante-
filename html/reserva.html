@@ -4,24 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <title>Restaurante-Sants</title>
 </head>
 <body>
     <header>
-        <div class="container_logo">
-            <img class="img" src="../img/logo.png" alt="">
+        <div   class="contain_btn_menu">
+            <p id="menu">menu</p>
         </div>
+        <div class="container_menu hiden">
+        <div class="header_nav">
+            <div class="container_logo">
+                <img class="img" src="../img/logo.png" alt="">
+            </div>
 
-        <nav class="nav_menu">
-            <ul class="contain_link">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="reserva.html">Reserva</a></li>
-            </ul>
-        </nav>
+            <nav class="nav_menu">
+                <ul class="contain_ancord">
+                    <li class="moov_gsap"><a href="index.html">Inicio</a></li>
+                    <li class="moov_gsap"><a href="galeria.html">Galeria</a></li>
+                    <li class="moov_gsap"><a href="menu.html">Menu</a></li>
+                    <li class="moov_gsap"><a href="contacto.html">Contacto</a></li>
+                    <li class="moov_gsap"><a href="reserva.html">Reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
     </header>
+    <main>
+        <section class="container_contacto" >
+            <div class="container_oldForm">
+                <h1 class="h1">Reserva</h1>
+                <form class="container_form" action="">
+                    <div class="contain_input">
+                        <p> nombre y apellido <span>*</span></p>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="contain_inputs_union">
+                        <div class="contain_input ">
+                            <p>telefono <span>*</span></p>
+                            <input class="input" type="tel">
+                        </div>
+                        <div class="contain_input">
+                            <p>D.N.I <span>*</span></p>
+                            <input class="input" type="text">
+                        </div>
+                    </div>
+                    <div class="contain_input">
+                        <p>email <span>*</span></p>
+                        <input class="input" type="email">
+                    </div>
+                    <div class="contain_input">
+                        <p>fecha y hora <span>*</span></p>
+                        <input class="input" type="datetime-local">
+                    </div>
+                    <div class="contiain_select">
+                        <p>Restaurante <span>*</span></p>
+                        <select class="select"  name="" id="">
+                            <option value="">Palermo</option>
+                            <option value="">Pilar</option>
+                            <option value="">Hurlingham</option>
+                            <option value="">San Isidro</option>
+                            <option value="">Castelar</option>
+                        </select>
+                    </div>
+                    <div class="contain_text">
+                        <p>Mensaje <span>*</span></p>
+                        <textarea name="" class="textArea" id=""></textarea>
+                    </div>
+                </form>
+                <div class="contain_btn_form">
+                    <p>Los campos son obligatorios</p>
+                    <button class="btn_form">Enviar</button>
+                </div>
+                
+            </div>
+            <div class="contain_img_form">
+                <img class="img_form" src="../img/camila-pusch-eP9lFYMjM88-unsplash.jpg" alt="">
+            </div>
+        </section>
+    </main>
     <footer>
         <div>
             <img src="" alt="">
@@ -35,5 +96,8 @@
             <img src="" alt="">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="../Js/menu.js"></script>
 </body>
 </html>

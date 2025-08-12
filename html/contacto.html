@@ -9,39 +9,47 @@
 </head>
 <body>
     <header>
-        <div class="container_logo">
-            <img class="img" src="../img/logo.png" alt="">
+        <div   class="contain_btn_menu">
+            <p id="menu">menu</p>
         </div>
+        <div class="container_menu hiden">
+        <div class="header_nav">
+            <div class="container_logo">
+                <img class="img" src="../img/logo.png" alt="">
+            </div>
 
-        <nav class="nav_menu">
-            <ul class="contain_link">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="reserva.html">Reserva</a></li>
-            </ul>
-        </nav>
+            <nav class="nav_menu">
+                <ul class="contain_ancord">
+                    <li class="moov_gsap"><a href="index.html">Inicio</a></li>
+                    <li class="moov_gsap"><a href="galeria.html">Galeria</a></li>
+                    <li class="moov_gsap"><a href="menu.html">Menu</a></li>
+                    <li class="moov_gsap"><a href="contacto.html">Contacto</a></li>
+                    <li class="moov_gsap"><a href="reserva.html">Reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
     </header>
+
     <main>
         <section class="container_contacto" >
             <div class="container_oldForm">
                 <h1 class="h1">Contactanos</h1>
                 <form class="container_form" action="">
                     <div class="contain_input">
-                        <p> nombre y apellido</p>
+                        <p> nombre y apellido<span>*</span></p>
                         <input class="input" type="text">
                     </div>
                     <div class="contain_input">
-                        <p>telefono</p>
+                        <p>telefono<span>*</span></p>
                         <input class="input" type="text">
                     </div>
                     <div class="contain_input">
-                        <p>email</p>
+                        <p>email<span>*</span></p>
                         <input class="input" type="text">
                     </div>
                     <div class="contiain_select">
-                        <p>Restaurante</p>
+                        <p>Restaurante<span>*</span></p>
                         <select class="select"  name="" id="">
                             <option value="">Palermo</option>
                             <option value="">Pilar</option>
@@ -51,7 +59,7 @@
                         </select>
                     </div>
                     <div class="contain_text">
-                        <p>Mensaje</p>
+                        <p>Mensaje<span>*</span></p>
                         <textarea name="" class="textArea" id=""></textarea>
                     </div>
                 </form>
@@ -79,5 +87,8 @@
             <img src="" alt="">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="../Js/menu.js"></script>
 </body>
 </html>

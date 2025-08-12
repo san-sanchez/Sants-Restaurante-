@@ -14,24 +14,34 @@
 </head>
 <body>
     <header>
-        <div class="container_logo">
-            <img class="img" src="../img/logo.png" alt="">
+        <div   class="contain_btn_menu">
+            <p id="menu">menu</p>
         </div>
+        <div class="container_menu hiden">
+        <div class="header_nav">
+            <div class="container_logo">
+                <img class="img" src="../img/logo.png" alt="">
+            </div>
 
-        <nav class="nav_menu">
-            <ul class="contain_link">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="reserva.html">Reserva</a></li>
-            </ul>
-        </nav>
+            <nav class="nav_menu">
+                <ul class="contain_ancord">
+                    <li class="moov_gsap"><a href="index.html">Inicio</a></li>
+                    <li class="moov_gsap"><a href="galeria.html">Galeria</a></li>
+                    <li class="moov_gsap"><a href="menu.html">Menu</a></li>
+                    <li class="moov_gsap"><a href="contacto.html">Contacto</a></li>
+                    <li class="moov_gsap"><a href="reserva.html">Reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
     </header>
-
-    <main>
+    
+    <main class="hiden_event">
 
         <section>
+            <div class="name">
+                <h1 >Sants</h1>
+            </div>
             <div class="container_img_inicio">
                 <div class="contain_img">
                     <img class="img"  src="../img/martin-baron-img1.jpg" alt="">
@@ -49,7 +59,7 @@
         </section>
 
         <section class="max_size container_happy_hour">
-            <div class="contain_data">
+            <div class="scroll_trigger contain_data">
                 <p class="happyHour_p">Disfrutá nuestro</p>
                 <h2>HAPPY HOUR</h2>
                 <p class="happyHour_p">
@@ -104,6 +114,9 @@
         </section>
 
         <section class="max_size container_gridFood">
+            <div>
+                <h2 class="font-size-h2">Nuestros Platos Estrella</h2>
+            </div>
             <div class="container">
                 <div class="item item_a"></div>
                 <div class="item item_b"></div>
@@ -129,8 +142,8 @@
                 <div class="contain_ImgLocal">
                     <img id="local_Img" class="img" src="../img/cody-chan-img2.jpg" alt="">
                 </div>
-                <div>
-                    <p class="contain_nombreLocal">SANTS - <span id="ciudad">ciudad</span></p>
+                <div class="container_local_txt">
+                    <h2 class="font-size-h2">SANTS - <span id="ciudad">ciudad</span></h2>
                     <p id="ubi_local">ubicacion</p>
                     <p id="hr_local">horario</p>
                     <p class><a href="#" class="info-link">Reserbar</a></p>
@@ -139,7 +152,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="hiden_event">
         <div>
             <img src="" alt="">
         </div>
@@ -152,5 +165,10 @@
             <img src="" alt="">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="../Js/menu.js"></script>
+    <script src="../Js/main.js"></script>
 </body>
+
 </html>
