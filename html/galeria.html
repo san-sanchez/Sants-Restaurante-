@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/galeria.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante-Sants</title>
 </head>
@@ -30,14 +31,107 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="container-premios-reposteria">
+            <div class="container-layout">
+                <div class="container-informacion">
+                    <h2>premio </h2>
+                    <p>receta para profecionales</p>
+                    <p class="btn-more-info">ver todas</p>
+                    <div class="contain_rogel">
+                        <img class="img_cover" src="../img/imageWeb/rogel.webp" alt="">
+                    </div>
+                </div>
+                <div class="container-card">
+                    
+                    <div class="contain_Card_postre">
+                        <div class="contain_img">
+                            <img class="img_cover" src="../img/imageWeb/Crematto-BAGEL-CON-SALMON-4-1200x680-1-615x541.jpg" alt="">
+                        </div>
+                        <h6>algodsd</h6>
+                        <p>profiteroles</p>
+                    </div>
+                    
+                    <div class="contain_Card_postre">
+                        <div class="contain_img">
+                            <img class="img_cover" src="../img/imageWeb/Crematto-BAGEL-CON-SALMON-4-1200x680-1-615x541.jpg" alt="">
+                        </div>
+                        <h6>algodsd</h6>
+                        <p>profiteroles</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-size container-lugar">
+            <div class="container-local-data">
+                <div class="contain-img-local">
+                    <img id="img" class="img_cover" src="../img/zeek-GEP3G2F559w-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="absolute">
+                <div class="item-flex-a">
+                    <img src="../img/imageWeb/arrow-aact.png" alt="">
+                </div>
+                <div class="item-flex-b">
+                    <h2>SANTS - <span id="local">local</span></h2>
+                    <P id="horario">horario</P>
+                    <p id="ubicacion">ubicacion</p>
+                    <p><a href="#">reservar</a></p>
+                </div>
+                <div class="item-flex-c">
+                    <img src="../img/imageWeb/arrow-sact.png" alt="">
+                </div>
+            </div>
             
         </section>
-        <section>
-
+        <section class="max-size section-center" style="background-color: yellowgreen;">
+            
+            <div class="container-card-chefs">
+                <div class="contain-card">
+                    <div class="contain-img-chef">
+                        <img class="img_cover" src="../img/chef/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="">
+                    </div>
+                    <p>chefs gustavo caralino</p>
+                </div>
+                <div class="contain-card">
+                    <div class="contain-img-chef">
+                        <img class="img_cover" src="../img/chef/louis-hansel-v3OlBE6-fhU-unsplash.jpg" alt="">
+                    </div>
+                    <p>chefs Ariel Palacios</p>
+                </div>
+                <div class="contain-card">
+                    <div class="contain-img-chef">
+                        <img class="img_cover" src="../img/chef/andy-sartori-Hz_SNGGPnxI-unsplash.jpg" alt="">
+                    </div>
+                    <p>chefs Juliet lampone</p>
+                </div>
+            </div>
         </section>
-        <section>
-
+        <section class="max-size" style="background-color: blue;">
+            <div class="gallery">
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="max-size section-center" style="background-color: rgb(12, 199, 127);">
+            <div class="container-fp">
+                <div class="contain-formacion">
+                    <div class="contain-txt-fp">
+                        <h2>Formacion Profecional</h2>
+                        <p>Formate con los profecionales de alto nivel. Brindamos areas de practicas con materia prima incluida
+                            fundamental para tu aprendisaje.
+                        </p>
+                        <p>Mas Informacion</p>
+                    </div>
+                    <div class="contain-card">
+                        <img class="img_cover" src="../img/zeek-GEP3G2F559w-unsplash.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -53,6 +147,9 @@
             <img src="" alt="">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="../Js/menu.js"></script>
+    <script src="../Js/carrusel.js"></script>
 </body>
 </html>

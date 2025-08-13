@@ -1,0 +1,171 @@
+.container-premios-reposteria{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-layout{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 14px;
+}
+.container-card{
+    display: flex;
+    max-height: 60%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -5vw;
+    margin-left: -7vw;
+}
+.contain_Card_postre{
+    width: 14vw;
+    height: 17vw;
+    margin: 10px;
+    background-color: aqua;
+}
+.contain_img{
+    width: 100%;
+    height: 60%;
+}
+.img_cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contain_rogel{
+    width: 20vw;
+    height:20vw;
+}
+.contain_rogel img{
+    object-fit: contain;
+}
+.container-informacion{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 2.5vw;
+}
+.btn-more-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.max-size{
+    width: 100%;
+    height: 100vh;
+}
+.container-lugar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contain-img-local{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+}
+.container-local-data{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: yellow;
+    font-size: 8vh;
+    text-align: center;
+}
+.item-flex-a{
+    flex: 5;
+}
+.item-flex-b{
+    flex: 90;
+}
+.item-flex-c{
+    flex: 5;
+}
+.section-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card-chefs{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.contain-card{
+    width: 30%;
+    height: 80%;
+    background-color: beige;
+}
+.contain-img-chef{
+    width: 100%;
+    height: 80%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     /* base para ajustar alturas */
+    gap: 15px;
+    padding: 15px;
+}
+
+.item {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.container-fp{
+    width: 80%;
+    height: 70vh;
+    background-color: antiquewhite;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+}
+.contain-formacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contain-txt-fp{
+    width: 50%;
+}

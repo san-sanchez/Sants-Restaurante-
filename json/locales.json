@@ -4,7 +4,7 @@
         "ciudad" : "Hurlingham",
         "ubicacion" : "av. Roca 1456",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/amie-johnson-beer.jpg"
+        "img" : "../img/imageWeb/Crematto-BAGEL-CON-SALMON-4-1200x680-1-615x541.jpg"
     },
     {
         "id" : 2,
@@ -29,13 +29,6 @@
     },
     {
         "id" : 5,
-        "ciudad" : "Hurlingham",
-        "ubicacion" : "av. Roca 1456",
-        "horario" : "9:00 AM - 22:00 PM",
-        "img" : ""
-    },
-    {
-        "id" : 6,
         "ciudad" : "Castelar",
         "ubicacion" : "Martín Fierro 3351, B1715BRG, Udaondo",
         "horario" : "9:00 AM - 22:00 PM",
