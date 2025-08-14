@@ -1,229 +1,229 @@
 [
     {
         "id": "1",
-        "img": "img/ensalada-caprese.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Ensalada Caprese",
         "descricion": "Tomates frescos, mozzarella de búfala y albahaca con aceite de oliva extra virgen."
     },
     {
         "id": "2",
-        "img": "img/tartar-atun.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Tartar de Atún",
         "descricion": "Atún rojo fresco marinado con soja, sésamo y aguacate."
     },
     {
         "id": "3",
-        "img": "img/ceviche.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Ceviche de Corvina",
         "descricion": "Pescado fresco marinado en limón con cebolla morada y cilantro."
     },
     {
         "id": "4",
-        "img": "img/bruschetta.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Bruschetta Clásica",
         "descricion": "Pan artesanal con tomate, ajo y aceite de oliva."
     },
     {
         "id": "5",
-        "img": "img/carpaccio-ternera.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Carpaccio de Ternera",
         "descricion": "Láminas finas de ternera con rúcula, parmesano y aceite trufado."
     },
     {
         "id": "6",
-        "img": "img/sopa-calabaza.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Crema de Calabaza",
         "descricion": "Sopa cremosa de calabaza con toque de jengibre."
     },
     {
         "id": "7",
-        "img": "img/crema-langosta.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Bisque de Langosta",
         "descricion": "Sopa francesa de langosta con brandy y crema."
     },
     {
         "id": "8",
-        "img": "img/ensalada-cesar.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Ensalada César Gourmet",
         "descricion": "Lechuga romana, crutones, parmesano y aderezo casero."
     },
     {
         "id": "9",
-        "img": "img/foie-gras.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Foie Gras con Pan Brioche",
         "descricion": "Hígado de pato caramelizado con chutney de higos."
     },
     {
         "id": "10",
-        "img": "img/risotto-funghi.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Risotto de Funghi",
         "descricion": "Arroz arborio cremoso con setas y parmesano."
     },
     {
         "id": "11",
-        "img": "img/risotto-trufa.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Risotto de Trufa Negra",
         "descricion": "Risotto con aroma y láminas de trufa negra."
     },
     {
         "id": "12",
-        "img": "img/pasta-marinera.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Pasta Marinera",
         "descricion": "Linguini con mariscos frescos y salsa de tomate."
     },
     {
         "id": "13",
-        "img": "img/pasta-pesto.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Tagliatelle al Pesto",
         "descricion": "Pasta fresca con salsa de albahaca, piñones y parmesano."
     },
     {
         "id": "14",
-        "img": "img/salmon-salsa.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Salmón a la Mantequilla de Limón",
         "descricion": "Salmón grillado con salsa cítrica y espárragos."
     },
     {
         "id": "15",
-        "img": "img/merluza-verde.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Merluza en Salsa Verde",
         "descricion": "Merluza fresca con salsa de perejil y almejas."
     },
     {
         "id": "16",
-        "img": "img/pulpo-brasa.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Pulpo a la Brasa",
         "descricion": "Tentáculos de pulpo con pimentón ahumado y patatas."
     },
     {
         "id": "17",
-        "img": "img/solomillo-ternera.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Solomillo de Ternera",
         "descricion": "Carne de res tierna con salsa de vino tinto."
     },
     {
         "id": "18",
-        "img": "img/entrecot.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Entrecot a la Parrilla",
         "descricion": "Corte jugoso de res con sal gruesa y chimichurri."
     },
     {
         "id": "19",
-        "img": "img/magret-pato.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Magret de Pato",
         "descricion": "Pechuga de pato con salsa de frutos rojos."
     },
     {
         "id": "20",
-        "img": "img/cordero-romero.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Costillar de Cordero al Romero",
         "descricion": "Costillas tiernas con hierbas aromáticas."
     },
     {
         "id": "21",
-        "img": "img/pollo-curry.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Pollo al Curry Suave",
         "descricion": "Pechuga de pollo en salsa cremosa de curry y coco."
     },
     {
         "id": "22",
-        "img": "img/pollo-mostaza.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Suprema de Pollo a la Mostaza",
         "descricion": "Pollo jugoso con salsa de mostaza Dijon."
     },
     {
         "id": "23",
-        "img": "img/lasagna.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Lasaña Boloñesa",
         "descricion": "Pasta en capas con salsa boloñesa y bechamel."
     },
     {
         "id": "24",
-        "img": "img/paella-mariscos.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Paella de Mariscos",
         "descricion": "Arroz con gambas, calamares y mejillones."
     },
     {
         "id": "25",
-        "img": "img/gnocchi.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Ñoquis de Papa",
         "descricion": "Pasta suave de papa con salsa de tomate casera."
     },
     {
         "id": "26",
-        "img": "img/postre-cheesecake.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Cheesecake de Frutos Rojos",
         "descricion": "Tarta de queso cremosa con frutos del bosque."
     },
     {
         "id": "27",
-        "img": "img/postre-mousse-choco.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Mousse de Chocolate Belga",
         "descricion": "Postre esponjoso con chocolate 70% cacao."
     },
     {
         "id": "28",
-        "img": "img/postre-tiramisu.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Tiramisú Clásico",
         "descricion": "Postre italiano con café, cacao y mascarpone."
     },
     {
         "id": "29",
-        "img": "img/postre-creme-brulee.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Crème Brûlée",
         "descricion": "Crema pastelera con capa de azúcar caramelizado."
     },
     {
         "id": "30",
-        "img": "img/postre-macarons.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Macarons Franceses",
         "descricion": "Galletas de almendra con rellenos variados."
     },
     {
         "id": "31",
-        "img": "img/postre-brownie.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Brownie con Helado",
         "descricion": "Bizcocho de chocolate con helado de vainilla."
     },
     {
         "id": "32",
-        "img": "img/postre-panacota.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Panacota de Vainilla",
         "descricion": "Postre italiano con salsa de frutillas."
     },
     {
         "id": "33",
-        "img": "img/postre-volcan.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Volcán de Chocolate",
         "descricion": "Bizcocho tibio con corazón líquido de chocolate."
     },
     {
         "id": "34",
-        "img": "img/postre-helado-artesanal.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Helado Artesanal",
         "descricion": "Variedades de sabores hechos en casa."
     },
     {
         "id": "35",
-        "img": "img/postre-tarta-manzana.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Tarta Tatin de Manzana",
         "descricion": "Manzanas caramelizadas con masa crujiente."
     },
     {
         "id": "36",
-        "img": "img/postre-fruta.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Brochetas de Frutas",
         "descricion": "Frutas frescas con reducción de balsámico."
     },
     {
         "id": "37",
-        "img": "img/postre-flan.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Flan Casero",
         "descricion": "Flan de vainilla con caramelo y crema."
     },
     {
         "id": "38",
-        "img": "img/postre-copa.jpg",
+        "img": "../img/iman-zaker-img4.jpg",
         "nombre": "Copa de Helado Gourmet",
         "descricion": "Helado con frutos secos, salsa de chocolate y crema."
     }

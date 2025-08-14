@@ -14,6 +14,7 @@ function cargarPlatos(card){
                                 <img class="imgMenu" src="${el.img}" alt="">
                             </div>
                             <p>${el.nombre}</p>
+                            <div class="linea-divisoria"></div>
                             <p>${el.descricion}</p>`;
         $fragment.appendChild(element);
     });

@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/menu.css">
-    <title>Restaurante-Sants</title>
-</head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 <body>
     <header>
         <div   class="contain_btn_menu">
@@ -30,51 +29,61 @@
         </div>
         </div>
     </header>
+    <section class="space-menu"></section>
     <search class="container_busqueda">
+        <div class="container_filter">
+            <p>filter</p>
+        </div>
         <div class="contain_buscador">
             <div class="input_buscadador">
-                <input class="buscador" type="text">
-                <div class="lupa"></div>
+                <input placeholder="buscar" id="buscar" class="buscador" type="text">
+                <div class="lupa">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
             </div>
-        </div>
-        <div class="container_filter">
-            filter
         </div>
     </search>
     <main>
-        <section>
+        <section id="section-grid-menu">
             <div id="grid" class="container-menu">
                 <div class="contain_menu">
                     <div class="contain_imgMenu">
-                        <img class="imgMenu" src="" alt="">
+                        <img class="imgMenu" src="../img/iman-zaker-img4.jpg" alt="">
                     </div>
                     <p>nombre</p>
+                    <div class="linea-divisoria"></div>
                     <p>descripcion</p>
                 </div>
                 <div class="contain_menu">
                     <div class="contain_imgMenu">
-                        <img class="imgMenu" src="" alt="">
+                        <img class="imgMenu" src="../img/iman-zaker-img4.jpg" alt="">
                     </div>
                     <p>nombre</p>
+                    <div class="linea-divisoria"></div>
                     <p>descripcion</p>
                 </div>
                 <div class="contain_menu">
                     <div class="contain_imgMenu">
-                        <img class="imgMenu" src="" alt="">
+                        <img class="imgMenu" src="../img/iman-zaker-img4.jpg" alt="">
                     </div>
                     <p>nombre</p>
+                    <div class="linea-divisoria"></div>
                     <p>descripcion</p>
                 </div>
                 <div class="contain_menu">
                     <div class="contain_imgMenu">
-                        <img class="imgMenu" src="" alt="">
+                        <img class="imgMenu" src="../img/iman-zaker-img4.jpg" alt="">
                     </div>
                     <p>nombre</p>
+                    <div class="linea-divisoria"></div>
                     <p>descripcion</p>
                 </div>
             </div>
             <div id="more">
-                <p >Mas platos</p>
+                <div class="contain_btn_more">
+                    <p>Mas platos</p>
+                </div>
+                
             </div>
         </section>
     </main>
@@ -96,5 +105,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="../Js/menu.js"></script>
     <script src="../Js/cargaCard.js"></script>
+    <script src="../Js/busqueda.js"></script>
 </body>
 </html>
