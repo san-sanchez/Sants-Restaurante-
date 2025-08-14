@@ -106,3 +106,8 @@
     align-items: center;
     font-size: 9vw;
 }
+.container_historia{
+    display: flex;
+    width: 80%;
+    background-color: antiquewhite;
+} 
