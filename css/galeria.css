@@ -15,12 +15,9 @@
 }
 .container-card{
     display: flex;
-    max-height: 60%;
+    max-height: 100%;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin-top: -5vw;
-    margin-left: -7vw;
 }
 .contain_Card_postre{
     width: 14vw;
@@ -37,30 +34,39 @@
     height: 100%;
     object-fit: cover;
 }
-.contain_rogel{
-    width: 20vw;
-    height:20vw;
+.contain_postre{
+    position: absolute;
+    width: 17vw;
+    height:17vw;
 }
-.contain_rogel img{
+.postre-A{
+    margin-left: -56vw;
+    margin-top: 24vw;
+}
+.postre-B{
+    margin-left: -69vw;
+    margin-top: -33vw;
+}
+.postre-C{
+    margin-left: 68vw;
+    margin-top:  33vw;
+}
+.contain_postre img{
     object-fit: contain;
 }
 .container-informacion{
     width: 60%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    font-size: 2.5vw;
-}
-.btn-more-info{
-    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-self: center;
-    justify-items: center;
-    align-content: center;
     align-items: center;
+    font-size: 2.5vw;
+    gap: 2rem;
+}
+.btn-more-info{
+    padding: 1rem 2rem;
+    width: 40%;
+    text-align: center;
     background-color: aqua;
 }
 .max-size{
@@ -128,6 +134,11 @@
     height: 80%;
     background-color: beige;
 }
+.contain-card p{
+    text-align: center;
+    font-size: 2vw;
+    margin: 1rem;
+}
 .contain-img-chef{
     width: 100%;
     height: 80%;
@@ -168,4 +179,20 @@
 }
 .contain-txt-fp{
     width: 50%;
+    font-size: 2vw;
+    text-align: center;
 }
+.contain-txt-fp h2{
+    font-size: 4vw;
+    font-style: italic;
+}
+.contain-txt-fp p{
+    margin: 2rem;
+}
+.btn{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: 14px;
+    background-color: aqua;
+}
+
