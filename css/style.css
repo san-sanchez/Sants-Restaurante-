@@ -16,64 +16,38 @@
     font-style: italic;
     font-size: 15vw;
 }
+main{
+    background-color: #005639;
+}
 .max_size{
     width: 100%;
     height: 100vh;
-    background-color: #ffcf56;
+}
+.container-div-section{
+    width: 90%;
+    height: 90vh;
+    display: flex;
 }
 
-section:nth-of-type(1) {
-    background-color: crimson;
-}
-
-section:nth-of-type(2) {
-    background-color: #005639;
-    
-}
-
-section:nth-of-type(3) {
-    background-color: #2e8b57;
-}
-
-section:nth-of-type(4) {
-    background-color: #005639;
-}
-section:nth-of-type(5) {
-    background-color: #2e8b57;
-}
 .container_happy_hour{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
 }
 .container_dining{
     display: flex;
     flex-direction: row-reverse;
 }
 .contain_data{
-    width: 70%;
+    flex: 1;
     color: aliceblue;
-    margin-left:3%;
-}
-.happyHour_p{
-    font-size: 5vh;
-}
-.happyhour_ciudad{
-    font-weight: 600;
-    color: #e42510;
-    font-size: 3vw;
-}
-.locales_happy_hour{
-    display: flex;
-}
-.locales_happy_hour li{
-    list-style: none;
-    margin: 2vw;
-}
-.time{
-    font-size: 1.4vw;
+    width: 90%;
+    height: 90vh;
 }
 .contain_data h2{
-    font-size: 8vw;
+    font-size: 11vw;
     font-style: italic;
     color: #e42510;
     text-align: center;
@@ -83,6 +57,51 @@ section:nth-of-type(5) {
     font-style: italic;
     color: #e42510;
     
+}
+.margin-section{
+    margin-top: 0vh;
+}
+.contain_img_fest{
+    flex: 1;
+    height: 100%;
+}
+.happyHour_p{
+    font-size: 1.7vw;
+}
+.happyhour_ciudad{
+    font-weight: 600;
+    color: #e42510;
+    font-size: 3vw;
+}
+.locales_happy_hour{
+    display: flex;
+    gap: 1rem;
+    height: 80%;
+    margin: 0.5rem;
+    width: 80%;
+}
+.heigth-40{
+    height: 60%;
+}
+.item-fx-happy-hour{
+    flex: 1;
+    background-color: #000000;
+    border-radius: 14px;
+}
+.fondo-a{
+    background-image: url(../img/japan/7875341.jpg);
+    background-size: contain;
+}
+.fondo-b{
+    background-image: url(../img/japan/7875341.jpg);
+    background-size: contain;
+}
+.fondo-c{
+    background-image: url(../img/japan/7875341.jpg);
+    background-size: contain;
+}
+.time{
+    font-size: 1.4vw;
 }
 .cdr_txt{
     font-size: 3vw;
@@ -114,10 +133,7 @@ section:nth-of-type(5) {
     font-size:clamp(1vw,2vw,2vw);
 }
 
-.contain_img_fest{
-    width: auto;
-    height: 100%;
-}
+
 
 .container_gridFood{
     display: flex;
@@ -219,4 +235,67 @@ section:nth-of-type(5) {
 .container_local_txt p{
     font-size: 4vw;
 }
-
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-grid-evento{
+    display: grid;
+    width: 80%;
+    height: 80%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,50%);
+}
+.item-evento-a{
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+}
+.img-contain{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-evento-b{
+    grid-area: 1/1/2/3;
+    font-size: 10vh;
+    color: #7e0101;
+    background-image: url(../img/japan/7875341.jpg);
+    background-size: cover;
+}
+.item-evento-d{
+    grid-area: 2/2/3/3;
+    background-image: url(../img/japan/patron.webp);
+    background-size: contain;
+}
+.circle{
+    background-color: #cf0f0f;
+    width: 6rem;
+    height: 6rem;
+    color: rgb(233, 233, 233);
+    border-radius: 100%;
+    font-size: 3vw;
+}
+.item-evento-c{
+    background-color: #f76008;
+    flex-direction: column;
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: 500;
+}
+.txt-evento{
+    width: 60%;
+    margin: 1vh;
+    color: #0a135c;
+    align-self: start;
+}
+.btn-evento{
+    padding: 0.5rem 2rem;
+    font-size: 2vh;
+    color: rgb(244, 228, 252);
+    background-color: #0a135c;
+}
+footer{
+    background-color: #000000;
+}
