@@ -28,18 +28,18 @@ main{
     height: 90vh;
     display: flex;
 }
+.reverse{
+    flex-direction: row-reverse;
+}
 
 .container_happy_hour{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    flex: 0 0 100%;
     height: 100vh;
 }
-.container_dining{
-    display: flex;
-    flex-direction: row-reverse;
-}
+
 .contain_data{
     flex: 1;
     color: aliceblue;
@@ -143,7 +143,7 @@ main{
 }
 .font-size-h2{
     font-style: italic;
-    font-size: 3vw;
+    font-size: 8vw;
     color: #e42510;
 }
 .container{
@@ -295,6 +295,43 @@ main{
     font-size: 2vh;
     color: rgb(244, 228, 252);
     background-color: #0a135c;
+}
+.horizontal-scroll{
+    display: flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.container-card-evento{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+.contain-card-evento{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80vh;
+    border-radius: 24px;
+    background-color: #cf0f0f;
+    align-items: center;
+}
+.contain-card-evento h3{
+    font-size: 3.5vw;
+}
+.contain-card-evento h4{
+    font-size: 2.5vw;
+}
+.contain-card-evento p{
+    font-size: 1.5vw;
+    color: #cf0f0f;
+    font-weight: 500;
+    margin: 2vh;
+}
+.card-a{
+    background-image: url(../img/japan/7875341.jpg);
+    background-size:contain ;
 }
 footer{
     background-color: #000000;
