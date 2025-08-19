@@ -79,8 +79,8 @@
     height: 80vh;
     color: #d5e7e7;
     border-radius: 24px;
-    background-image: url("../img/testura/pawel-czerwinski-Zd315A95aqg-unsplash.jpg");
-    background-size: auto;
+    background-image: url("../img/mapa.webp");
+    background-size: cover;
 } 
 .container_historia h1{
     font-size: 6vw;
