@@ -13,6 +13,7 @@
 
 main {
     background-color: #dfe0d0;
+    color: #835f04;
 }
 
 .max_size {
@@ -40,7 +41,8 @@ main {
 
 .contain_data {
     flex: 1;
-    color: aliceblue;
+    color: #835f04;
+
     width: 90%;
     height: 90vh;
 }
@@ -69,7 +71,9 @@ main {
 }
 
 .happyHour_p {
-    font-size: 1.7vw;
+    font-size: 2vw;
+    color: #eca900;
+    font-weight: 900;
 }
 
 .happyhour_ciudad {
@@ -206,6 +210,7 @@ main {
     background-color: #ffcf56;
     border-radius: 10px;
     margin-bottom: 1vh;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
 }
 
 .item_a {
@@ -262,7 +267,7 @@ main {
 .container_local {
     display: flex;
     justify-content: start;
-    color: aliceblue;
+    color: #835f04;
 }
 
 .container_localesImg {
@@ -360,7 +365,7 @@ main {
 .txt-evento {
     width: 60%;
     margin: 1vh;
-    color: #0a135c;
+    color: #c6e709;
     align-self: start;
 }
 
@@ -391,7 +396,6 @@ main {
     width: 25%;
     height: 80vh;
     border-radius: 24px;
-    background-color: #cf0f0f;
     align-items: center;
 }
 
@@ -405,14 +409,13 @@ main {
 
 .contain-card-evento p {
     font-size: 1.5vw;
-    color: #cf0f0f;
     font-weight: 500;
     margin: 2vh;
 }
 
 .card-a {
-    background-image: url(../img/japan/7875341.jpg);
-    background-size: contain;
+    background-image: url(../img/testura/pawel-czerwinski-BPrk2cOoCq8-unsplash.jpg);
+    background-size: cover;
 }
 
 .section-materia-prima {
@@ -532,63 +535,24 @@ footer {
     color: #f3071e;
     z-index: 10;
 }
-
-.circle-container {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-color: #0a135c;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+.section-historia{
+    height: 120vh;
+    background: radial-gradient(circle at 50% 50%, #f7f7eb, #dfe0d0, transparent 100%);
+    color: #835f04;
+    font-weight: 300;
 }
-
-
-
-.img-rotate:nth-child(1) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+.container_historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
-
-.img-rotate:nth-child(3) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(5) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(8) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(10) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(12) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(13) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(15) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(17) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(20) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(22) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
-}
-
-.img-rotate:nth-child(24) {
-    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+.contain-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5vw;
+    gap: 0.5rem;
 }
