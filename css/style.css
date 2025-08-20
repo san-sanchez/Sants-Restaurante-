@@ -1,11 +1,5 @@
 
-.container_img_inicio{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.name{
+.name {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -16,23 +10,27 @@
     font-style: italic;
     font-size: 15vw;
 }
-main{
-    background-color: #005639;
+
+main {
+    background-color: #dfe0d0;
 }
-.max_size{
+
+.max_size {
     width: 100%;
     height: 100vh;
 }
-.container-div-section{
+
+.container-div-section {
     width: 90%;
     height: 90vh;
     display: flex;
 }
-.reverse{
+
+.reverse {
     flex-direction: row-reverse;
 }
 
-.container_happy_hour{
+.container_happy_hour {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -40,186 +38,250 @@ main{
     height: 100vh;
 }
 
-.contain_data{
+.contain_data {
     flex: 1;
     color: aliceblue;
     width: 90%;
     height: 90vh;
 }
-.contain_data h2{
+
+.contain_data h2 {
     font-size: 11vw;
     font-style: italic;
     color: #e42510;
     text-align: center;
 }
-.contain_data h3{
-    font-size:clamp(5vw,6.5vw,8vw);
+
+.contain_data h3 {
+    font-size: clamp(5vw, 6.5vw, 8vw);
     font-style: italic;
     color: #e42510;
-    
+
 }
-.margin-section{
+
+.margin-section {
     margin-top: 0vh;
 }
-.contain_img_fest{
+
+.contain_img_fest {
     flex: 1;
     height: 100%;
 }
-.happyHour_p{
+
+.happyHour_p {
     font-size: 1.7vw;
 }
-.happyhour_ciudad{
+
+.happyhour_ciudad {
     font-weight: 600;
     color: #e42510;
     font-size: 3vw;
 }
-.locales_happy_hour{
+
+.locales_happy_hour {
     display: flex;
     gap: 1rem;
     height: 80%;
     margin: 0.5rem;
     width: 80%;
 }
-.heigth-40{
+
+.heigth-40 {
     height: 60%;
 }
-.item-fx-happy-hour{
+
+.item-fx-happy-hour {
     flex: 1;
     background-color: #000000;
     border-radius: 14px;
 }
-.fondo-a{
+
+.fondo-a {
     background-image: url(../img/japan/7875341.jpg);
     background-size: contain;
 }
-.fondo-b{
+
+.fondo-b {
     background-image: url(../img/japan/7875341.jpg);
     background-size: contain;
 }
-.fondo-c{
+
+.fondo-c {
     background-image: url(../img/japan/7875341.jpg);
     background-size: contain;
 }
-.time{
+
+.time {
     font-size: 1.4vw;
 }
-.cdr_txt{
+
+.cdr_txt {
     font-size: 3vw;
 }
-.cdr_txt a{
+
+.cdr_txt a {
     text-decoration: none;
     color: #005639;
 }
-.contain_btn{
+
+.contain_btn {
     display: flex;
     height: auto;
-    margin: clamp(0%,2vh,8vh);
+    margin: clamp(0%, 2vh, 8vh);
     justify-content: center;
     align-items: center;
 }
-.info_link{
+
+.info_link {
     text-decoration: none;
     color: #000000;
 }
-.btn_happyHour{
+
+.btn_happyHour {
     background-color: #ffcf56;
     padding: 3vh 8vh;
     text-decoration: none;
     cursor: pointer;
 }
-.contain_listServices{
+
+.contain_listServices {
     list-style: none;
     margin-left: 2vw;
-    font-size:clamp(1vw,2vw,2vw);
+    font-size: clamp(1vw, 2vw, 2vw);
 }
 
+.section-txt-platos {
+    width: 100%;
+    height: 100vh;
 
+}
 
-.container_gridFood{
+.pill {
+    margin-right: 5vw;
+    width: 27%;
+    height: 90vh;
+    border-radius: 9999px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    border: 0.3rem solid rgb(180, 155, 11);
+}
+
+.mini-pill {
+    position: absolute;
+    width: 12%;
+    height: 40vh;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-left: 44vw;
+    margin-top: 50vh;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    border: 0.3rem solid rgb(180, 155, 11);
+}
+
+.contain-txt-platos {
+    width: 75%;
+    height: 100vh;
+    margin: 3rem;
+    font-size: 12vw;
+    font-weight: bolder;
+}
+
+.container_gridFood {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.font-size-h2{
-    font-style: italic;
-    font-size: 8vw;
-    color: #e42510;
-}
-.container{
+
+.container {
     width: 80%;
     height: 80vh;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.7%;
 }
-.item{
+
+.item {
     background-color: #ffcf56;
     border-radius: 10px;
     margin-bottom: 1vh;
 }
-.item_a{
+
+.item_a {
     grid-area: 1/1/3/2;
     background-image: url(../img/duane-mendes-img3.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_b{
+
+.item_b {
     background-image: url(../img/food.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_c{
+
+.item_c {
     grid-area: 1/3/2/5;
     background-image: url(../img/martin-baron-B-oHZfwVSqA-unsplash.jpg);
     background-size: cover;
 }
-.item_d{
+
+.item_d {
     grid-area: 2/2/4/3;
     background-image: url(../img/loes-klinker-img5.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_e{
+
+.item_e {
     background-image: url(../img/martin-baron-Z_CmX-SlOh4-unsplash.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_f{
+
+.item_f {
     background-image: url(../img/sander-dalhuisen-xIDf1bUYCf8-unsplash.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_g{
+
+.item_g {
     background-image: url(../img/450_1000.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.item_h{
+
+.item_h {
     grid-area: 3/3/4/5;
     background-image: url(../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position-y: center;
 }
-.img_galeria{
+
+.img_galeria {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.container_local{
+
+.container_local {
     display: flex;
     justify-content: start;
     color: aliceblue;
 }
-.container_localesImg{
+
+.container_localesImg {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
 }
-.contain_ImgLocal{
-    width:30%;
+
+.contain_ImgLocal {
+    width: 30%;
     height: 92.4vh;
     margin-left: 3%;
 }
-.img_local{
+
+.img_local {
     height: 16vh;
     margin-bottom: 10%;
 }
+
 .container_local_txt {
     display: flex;
     width: 100%;
@@ -227,49 +289,58 @@ main{
     flex-direction: column;
     justify-content: flex-start;
 }
-.container_local_txt h2{
+
+.container_local_txt h2 {
     font-size: 7vw;
     font-style: normal;
     font-weight: 800;
 }
-.container_local_txt p{
+
+.container_local_txt p {
     font-size: 4vw;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container-grid-evento{
+
+.container-grid-evento {
     display: grid;
     width: 80%;
     height: 80%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,50%);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50%);
 }
-.item-evento-a{
+
+.item-evento-a {
     position: absolute;
     height: 12rem;
     width: 12rem;
 }
-.img-contain{
+
+.img-contain {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.item-evento-b{
+
+.item-evento-b {
     grid-area: 1/1/2/3;
     font-size: 10vh;
     color: #7e0101;
     background-image: url(../img/japan/7875341.jpg);
     background-size: cover;
 }
-.item-evento-d{
+
+.item-evento-d {
     grid-area: 2/2/3/3;
     background-image: url(../img/japan/patron.webp);
     background-size: contain;
 }
-.circle{
+
+.circle {
     background-color: #cf0f0f;
     width: 6rem;
     height: 6rem;
@@ -277,38 +348,44 @@ main{
     border-radius: 100%;
     font-size: 3vw;
 }
-.item-evento-c{
+
+.item-evento-c {
     background-color: #f76008;
     flex-direction: column;
     font-size: 1.5vw;
     text-align: left;
     font-weight: 500;
 }
-.txt-evento{
+
+.txt-evento {
     width: 60%;
     margin: 1vh;
     color: #0a135c;
     align-self: start;
 }
-.btn-evento{
+
+.btn-evento {
     padding: 0.5rem 2rem;
     font-size: 2vh;
     color: rgb(244, 228, 252);
     background-color: #0a135c;
 }
-.horizontal-scroll{
+
+.horizontal-scroll {
     display: flex;
-    overflow-x:auto;
+    overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
-.container-card-evento{
+
+.container-card-evento {
     display: flex;
     justify-content: center;
     gap: 5vw;
 }
-.contain-card-evento{
+
+.contain-card-evento {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -317,36 +394,52 @@ main{
     background-color: #cf0f0f;
     align-items: center;
 }
-.contain-card-evento h3{
+
+.contain-card-evento h3 {
     font-size: 3.5vw;
 }
-.contain-card-evento h4{
+
+.contain-card-evento h4 {
     font-size: 2.5vw;
 }
-.contain-card-evento p{
+
+.contain-card-evento p {
     font-size: 1.5vw;
     color: #cf0f0f;
     font-weight: 500;
     margin: 2vh;
 }
-.card-a{
+
+.card-a {
     background-image: url(../img/japan/7875341.jpg);
-    background-size:contain ;
+    background-size: contain;
 }
-.section-materia-prima{
+
+.section-materia-prima {
     flex-direction: column;
-    background: linear-gradient(180deg, #053146, #14879b);;
+    background: linear-gradient(180deg,  #dfe0d0, #e4e0e4);
+    overflow: hidden;
+    justify-content: end;
 }
-footer{
+
+.section-materia-prima h2 {
+    font-size: 5VW;
+}
+.section-temporarda{
+    background: linear-gradient(180deg, #e4e0e4,#dfe0d0);
+}
+
+footer {
     background-color: #000000;
 }
-.container-card-producto{
+
+.container-card-producto {
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: end;
-    perspective: 1000px;
+    perspective: 1000000px;
 }
 
 .card-prod {
@@ -362,34 +455,140 @@ footer{
 
 /* 👇 inclinación con rotateZ para dar efecto de abanico */
 .card-prod:nth-child(1) {
-    transform: rotateZ(-15deg) translateY(5rem) scale(0.9);
+    transform: rotateZ(-10deg) translateX(2rem) translateY(5rem) scale(0.9);
     z-index: 1;
     background-image: url("../img/testura/bia-w-a-inUID_-1lCU-unsplash.jpg");
 }
+
 .card-prod:nth-child(2) {
-    transform: rotateZ(-7deg) translateY(2rem) scale(0.95);
+    transform: rotateZ(-3deg) translateY(2rem) scale(0.95);
     z-index: 2;
     background-image: url("../img/testura/cassi-josh-lhnOvu72BM8-unsplash.jpg");
 }
+
 .card-prod:nth-child(3) {
-    transform: rotateZ(0deg) scale(1.1); /* carta central */
+    transform: rotateZ(0deg) scale(1.1);
+    /* carta central */
     background-image: url("../img/testura/flyd-0zvkTWsXJQE-unsplash.jpg");
     z-index: 3;
 }
+
 .card-prod:nth-child(4) {
-    transform: rotateZ(7deg) translateY(2rem) scale(0.95);
+    transform: rotateZ(3deg) translateY(2rem) scale(0.95);
     z-index: 2;
     background-image: url("../img/testura/pawel-czerwinski-BPrk2cOoCq8-unsplash.jpg");
 }
+
 .card-prod:nth-child(5) {
-    transform: rotateZ(15deg) translateY(5rem) scale(0.9);
+    transform: rotateZ(7deg) translateX(-2rem) translateY(5rem) scale(0.9);
     z-index: 1;
     background-image: url("../img/testura/pawel-czerwinski-Zd315A95aqg-unsplash.jpg");
 }
 
 /* ✨ efecto al pasar el mouse */
 .card-prod:hover {
-    transform: scale(1.2) translateY(-20px) rotateZ(0deg);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    transform: scale(1.2) translateY(-30px) rotateZ(0deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     z-index: 10;
+}
+
+.section-fusion-gastronomica {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.grid {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    background-color: #e4e0e4;
+    grid-template-columns: repeat(8,1fr);
+    /* 8 columnas */
+    grid-template-rows: repeat(4, 25vh);
+    /* 4 filas */
+}
+
+.item-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.item-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* rellena el cuadro sin deformar */
+}
+
+.contain-adsolute-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    text-align: center;
+    color: #f3071e;
+    z-index: 10;
+}
+
+.circle-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #0a135c;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+
+.img-rotate:nth-child(1) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(3) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(5) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(8) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(10) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(12) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(13) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(15) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(17) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(20) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(22) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
+}
+
+.img-rotate:nth-child(24) {
+    background-image: url("../img/testura/pawel-czerwinski-mfIplTZLE6E-unsplash.jpg");
 }
