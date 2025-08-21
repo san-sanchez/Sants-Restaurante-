@@ -42,13 +42,16 @@ main {
 .contain_data {
     flex: 1;
     color: #835f04;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 90%;
     height: 90vh;
 }
 
 .contain_data h2 {
-    font-size: 11vw;
+    font-size: 8vw;
     font-style: italic;
     color: #e42510;
     text-align: center;
@@ -73,7 +76,7 @@ main {
 .happyHour_p {
     font-size: 2vw;
     color: #eca900;
-    font-weight: 900;
+    text-align: center;
 }
 
 .happyhour_ciudad {
@@ -115,17 +118,14 @@ main {
     background-size: contain;
 }
 
-.time {
-    font-size: 1.4vw;
-}
-
 .cdr_txt {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
-
-.cdr_txt a {
-    text-decoration: none;
-    color: #005639;
+.deningRoom{
+    text-align: center;
+}
+.deningRoom h2{
+    font-size: 8vw;
 }
 
 .contain_btn {
@@ -167,7 +167,7 @@ main {
     border-radius: 9999px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    border: 0.3rem solid rgb(180, 155, 11);
+    border: 0.1rem solid rgb(180, 155, 11);
 }
 
 .mini-pill {
@@ -179,7 +179,7 @@ main {
     margin-left: 44vw;
     margin-top: 50vh;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    border: 0.3rem solid rgb(180, 155, 11);
+    border: 0.1rem solid rgb(180, 155, 11);
 }
 
 .contain-txt-platos {
@@ -211,6 +211,7 @@ main {
     border-radius: 10px;
     margin-bottom: 1vh;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    border: 0.1rem solid rgb(180, 155, 11);;
 }
 
 .item_a {
@@ -423,8 +424,11 @@ main {
     background: linear-gradient(180deg,  #dfe0d0, #e4e0e4);
     overflow: hidden;
     justify-content: end;
+    text-align: center;
 }
-
+.section-materia-prima h3{
+    width: 80%;
+}
 .section-materia-prima h2 {
     font-size: 5VW;
 }
@@ -450,42 +454,46 @@ footer {
     height: 50vh;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #ffcf56;
     border-radius: 14px;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
     cursor: pointer;
-    color: #ffff;
+    font-size: 1.5vw;
+    filter: grayscale(60%);
 }
 
 /* 👇 inclinación con rotateZ para dar efecto de abanico */
 .card-prod:nth-child(1) {
     transform: rotateZ(-10deg) translateX(2rem) translateY(5rem) scale(0.9);
     z-index: 1;
-    background-image: url("../img/testura/bia-w-a-inUID_-1lCU-unsplash.jpg");
+    background-image: url("../img/card/carne.jpg");
 }
 
 .card-prod:nth-child(2) {
     transform: rotateZ(-3deg) translateY(2rem) scale(0.95);
     z-index: 2;
-    background-image: url("../img/testura/cassi-josh-lhnOvu72BM8-unsplash.jpg");
+    background-image: url("../img/card/vinos.jpg");
 }
 
 .card-prod:nth-child(3) {
     transform: rotateZ(0deg) scale(1.1);
     /* carta central */
-    background-image: url("../img/testura/flyd-0zvkTWsXJQE-unsplash.jpg");
+    background-image: url("../img/card/tomate.jpg");
     z-index: 3;
 }
 
 .card-prod:nth-child(4) {
     transform: rotateZ(3deg) translateY(2rem) scale(0.95);
     z-index: 2;
-    background-image: url("../img/testura/pawel-czerwinski-BPrk2cOoCq8-unsplash.jpg");
+    background-image: url("../img/card/ostion.jpg");
 }
 
 .card-prod:nth-child(5) {
     transform: rotateZ(7deg) translateX(-2rem) translateY(5rem) scale(0.9);
     z-index: 1;
-    background-image: url("../img/testura/pawel-czerwinski-Zd315A95aqg-unsplash.jpg");
+    background-image: url("../img/card/trucha.jpg");
 }
 
 /* ✨ efecto al pasar el mouse */
@@ -493,6 +501,7 @@ footer {
     transform: scale(1.2) translateY(-30px) rotateZ(0deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     z-index: 10;
+    filter: none;
 }
 
 .section-fusion-gastronomica {
