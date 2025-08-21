@@ -1,17 +1,19 @@
 .container_contacto{
     width: 100%;
     height: 120vh;
-    background-color:#005639;
+    background-color: #dfe0d0;
     color: aliceblue;
     font-size: 1.5vw;
     display: flex;
     justify-content: space-around;
 }
 .h1{
-    color: #db0606fb;
+    color: #835f04;
     font-size: 7vw;
     font-style: italic;
-    background-color:#005639;
+}
+p{
+    color: #835f04;
 }
 .container_oldForm{
     width: 70%;
@@ -36,10 +38,13 @@
 .input{
     width: 100%;
     height: 6vh;
-    background-color:#2e8b57;
-    border: none;
+    border: 3px solid rgb(180, 155, 11);
     outline: none;
+    background-color: #ebdfc2;
+    border-radius: 1000000000px; ;
+    font-size: 1.3vw;
 }
+
 .contain_inputs_union {
     display: flex;
     width: 70%;
@@ -57,10 +62,12 @@
 .select{
     width: 100%;
     font-size: 1.7vw;
-    background-color:#2e8b57;
     outline: none;
     color: #fff;
-    border: none;
+    border: 3px solid rgb(180, 155, 11);
+    background-color: #ebdfc2;
+    border-radius: 1000000000px; ;
+    font-size: 1.3vw;
 }
 .contain_text{
     width: 70%;
@@ -75,9 +82,9 @@
     height: 80%;
     resize: none;
     outline: none;
-    background-color: #2e8b57;
-    border: none;
-    color: aliceblue;
+    border: 3px solid rgb(180, 155, 11);
+    background-color: #ebdfc2;
+    border-radius: 14px;
     font-size: 1.3vw;
 }
 .contain_img_form{
@@ -100,4 +107,7 @@
     padding: 2% 9%;
     outline: none;
     margin: 1%;
+}
+footer{
+    background-color: #000;
 }
