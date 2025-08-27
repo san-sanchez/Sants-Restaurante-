@@ -74,8 +74,8 @@ main {
 }
 
 .happyHour_p {
-    font-size: 2vw;
-    color: #eca900;
+    font-size: 2.5vw;
+    color: #835f04;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ main {
 
 .cdr_txt {
     font-size: 2.5vw;
-    color: #eca900;
+    color: #835f04;
 }
 .deningRoom{
     text-align: center;
@@ -312,8 +312,8 @@ main {
 
 .item-evento-a {
     position: absolute;
-    height: 7rem;
-    width: 7rem;
+    height: clamp(7rem,16vw,42rem);
+    width: clamp(7rem,16vw,42rem);
 }
 
 .img-contain {
@@ -338,15 +338,15 @@ main {
 
 .circle {
     background-color: #cf0f0f;
-    width: 3rem;
-    height: 3rem;
+    width: clamp(4rem,10vw,14rem);
+    height: clamp(4rem,10vw,14rem);
     color: rgb(233, 233, 233);
     border-radius: 100%;
     font-size: 3vw;
 }
 
 .item-evento-c {
-    background-color: #f76008;
+    background-color: #003237;
     flex-direction: column;
     font-size: 1.5vw;
     text-align: left;
@@ -356,7 +356,7 @@ main {
 .txt-evento {
     width: 60%;
     margin: 1vh;
-    color: #c6e709;
+    color: #dfe0d0;
     align-self: start;
 }
 
@@ -413,8 +413,10 @@ main {
     flex-direction: column;
     background: linear-gradient(180deg,  #dfe0d0, #e4e0e4);
     overflow: hidden;
-    justify-content: end;
     text-align: center;
+}
+.contain-txt-materia{
+    height: 20vh;
 }
 .section-materia-prima h3{
     width: 80%;
@@ -440,8 +442,8 @@ footer {
 }
 
 .card-prod {
-    width: 15vw;
-    height: 50vh;
+    width: clamp(7rem,15vw,20rem);
+    height: clamp(10rem,23vw,31rem);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -504,9 +506,9 @@ footer {
     width: 100%;
     display: grid;
     background-color: #e4e0e4;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(8,clamp(1rem,12.4vw,20rem));
     /* 8 columnas */
-    grid-template-rows: repeat(4, 25vh);
+    grid-template-rows: repeat(4, clamp(1rem,12.4vw,20rem));
     /* 4 filas */
 }
 
@@ -562,15 +564,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .btn{
     border: 0.2vw solid #eca900;
     border-radius: 9999999999px;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: 2.5vw;
     backdrop-filter: blur(3px);
 }
 .btn a{
     color: #eca900;
     text-decoration: none;
+}
+.contain_img_fest .img {
+    position: relative;
+    z-index: 1;
 }
