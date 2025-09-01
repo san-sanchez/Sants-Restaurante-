@@ -2,12 +2,13 @@
 let $menu = document.getElementById("menu");
 let $nav = document.querySelector(".container_menu");
 let $hiden = document.querySelectorAll(".hiden_event");
-gsap.from(".name",{
+//MOVER A UN JS DIFERENTE
+/*gsap.from(".name",{
     duration:2, 
     opacity:1,
     scale:0.1,
     ease:"power3"
-});
+});*/
 
 $menu.addEventListener("click",()=>{
     

@@ -20,6 +20,7 @@
     justify-content: end;
     font-size: 3vw;
     color: #C6A15B;
+    z-index: 100000;
 }
 .contain_btn_menu p{
     display: block;
@@ -107,10 +108,7 @@
     text-decoration: none;
     color: #C6A15B;
 }
-footer{
-    background-color: #00000000;
-    height: 5rem;
-}
+
 @media (min-width: 200px) and (max-width: 768px) {
     .container-imagen-logo{
         display: none;

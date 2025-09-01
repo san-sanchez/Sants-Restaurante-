@@ -114,3 +114,46 @@ p{
 footer{
     background-color: #000;
 }
+@media (min-width:320px) and (max-width: 768px) {
+    .container_contacto{
+        height: 100vh;
+
+    }
+    .contain_img_form{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .container_oldForm{
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+    .container_oldForm h1{
+        margin: 2rem;
+        font-size: 7vw;
+    }
+    .container_form{
+        font-size: 5vw;
+    }
+    .input,
+    .select,
+    .textArea{
+        font-size: 4vw;
+    }
+    .contain_text,
+    .contiain_select,
+    .contain_input{
+        width: 85%;
+    }
+    .contain_btn_form p{
+        font-size: 4vw;
+    }
+    .btn_form{
+        padding: 1rem 4rem 1rem 4rem;
+        font-size:5vw;
+    }
+    .contain_inputs_union {
+        width: 90%;
+    }
+}
