@@ -209,21 +209,45 @@ main {
 }
 .section-chef{
     width: 100%;
-    height: 200vh;
 }
+.contain-icon-more{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    z-index: 10000;
+}
+.material-symbols-outlined {
+    
+    font-variation-settings:
+        'wght' 400,   /* grosor */
+        'FILL' 0,     /* relleno */
+        'GRAD' 0,     /* gradiente/estilo */
+        'opsz' 58;    /* tamaño del icono */
+        color: #ff0000; /* color funciona normalmente */
+        display: inline-block;
+}
+.contain-img-chef:hover .contain-icon-more{
+    visibility: visible;
+}
+
+
 .container-card-chefs{
     width: 90%;
-    height: 200vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 2rem;
-    flex-direction: column;
 }
 .contain-card-chef{
-    width: 25%;
     height: 55vh;
+    flex: 1 1 20rem;
     background-color: beige;
     text-align: center;
     font-size: 2vw;
@@ -241,6 +265,8 @@ main {
 .contain-img-chef{
     width: 100%;
     height: 80%;
+    position: relative;
+    z-index: 100;
 }
 .gallery {
     display: grid;
@@ -414,6 +440,87 @@ footer{
     font-size: 8vw;
 }
 .cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-historia{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+.container-historia:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.contain-txt-histria{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    font-size: 2vw;
+    border-right: 3px solid #000 ;
+}
+.contain-txt-histria p{
+    width: 90%;
+}
+.container-historia:nth-child(2) .contain-txt-histria{
+    border-left: 3px solid #000;
+    border-right: none;
+}
+.contain-circle{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-timeline{
+    position: absolute;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #013322;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-img-historia{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-img-historia{
+    width: 90%;
+    height: 90%;
+}
+.section-grid-chef{
+    width: 100%;
+    height: 100vh;
+}
+.container-grid-chef{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,40vh);
+    gap: 0.5rem;
+    margin: 3rem;
+}
+.item-chef-a{
+    background-color: #013322;
+    grid-area: 1/3/3/1;
+}
+.item-chef-c{
+    grid-area: 2/3/3/4;
+}
+.item-chef-d{
+    grid-area: 1/3/2/4;
+}
+.video-cover{
     width: 100%;
     height: 100%;
     object-fit: cover;
