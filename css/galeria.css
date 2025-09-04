@@ -138,7 +138,6 @@ main {
     display: flex;
 }
 .contain-img-local img{
-    filter: grayscale(100%);
 }
 .container-local-data{
     width: 100%;
@@ -149,8 +148,13 @@ main {
     justify-content: center;
     align-items: center;
 }
+.arrow-cover{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
 .btn-reserva{
-    background-color: tomato;
+    background-color: #002f36;
     width: 20%;
     padding: 0.3rem;
     margin: 5vw;
@@ -167,41 +171,33 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     color: rgb(221, 4, 4);
     font-size: 8vh;
     text-align: center;
 }
-.item-flex-a{
-    flex: 5;
-    margin: 0.5rem;
-    width: 6rem;
-    height: 4rem;
+.item-flex-a,
+.item-flex-c{
+    
+    width: clamp(2rem,5vw,5rem);
+    height:clamp(2rem,5vw,5rem);
     display: flex;
+    margin: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 100000000px;
-    background-color: tomato;
+    background-color: #002f36;
 }
 .item-flex-b{
-    flex: 90;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: clamp(3vw,4vw,6vw);
 }
-.item-flex-c{
-    flex: 5;
-    margin: 0.5rem;
-    width: 6rem;
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100000000px;
-    background-color: tomato;
-}
+
 .section-center{
     display: flex;
     justify-content: center;
@@ -244,13 +240,14 @@ main {
     justify-content: center;
     align-content: center;
     gap: 2rem;
+    margin: 2rem;
 }
 .contain-card-chef{
-    height: 55vh;
-    flex: 1 1 20rem;
+    height: 80vh;
+    flex: 1 1 clamp(20rem,25vw,30rem);
     background-color: beige;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .contain-card{
     width: 30%;
@@ -322,14 +319,24 @@ main {
     display: grid;
     height: 100%;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,48%);
-    gap: 1vw;
-    margin: 1vw;
+    grid-template-rows: repeat(2,50%);
 }
 .foto{
-    border-radius: 14px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    border: 1.5px solid rgb(180, 155, 11);
+}
+.item-chefs{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.txt-absolute{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: yellow;
 }
 .item-foto-a{
     grid-area: 1/1/3/3;
@@ -506,7 +513,7 @@ footer{
 .container-grid-chef{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,40vh);
+    grid-template-rows: repeat(2,50vh);
     gap: 0.5rem;
     margin: 3rem;
 }
@@ -524,4 +531,41 @@ footer{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.container-grid-platos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,50vh);
+}
+.item-galeria-B{
+    grid-area: 3/1/5/2;
+}
+.item-galeria-C{
+    grid-area: 1/1/3/3;
+}
+.item-galeria-E{
+    grid-area: 3/4/5/5;
+}
+.item-galeria-D{
+    grid-area: 1/3/3/4;
+}
+.item-galeria-I{
+    grid-area: 1/4/2/5;
+}
+.item-galeria-G{
+    grid-area: 4/2/5/4;
+}
+.container-video-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,50vh);
+}
+.contain-video-item-A{
+    grid-area: 1/1/3/3;
+}
+.contain-video-item-D{
+    grid-area: 2/3/3/5;
+}
+.contain-video-item-F{
+    grid-area: 3/2/4/4;
 }

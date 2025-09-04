@@ -10,15 +10,48 @@
     font-style: italic;
     font-size: 15vw;
 }
+.contain-nube{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    z-index: 1000;
+    animation: mover-nube 15s linear infinite;
+}
+@keyframes mover-nube {
+    0% {
+        margin-left: -100%; /* empieza fuera a la izquierda */
+    }
+    50% {
+        margin-left: 0%; /* empieza fuera a la izquierda */
+    }
+    100% {
+        margin-left: 100%; /* termina fuera a la derecha */
+    }
+}
+.nube-cover{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
 
 main {
     background-color: #dfe0d0;
-    color: #835f04;
+    color: #eca900;
+}
+.container-name{
+    background-image: url("../img/salta.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 .max_size {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container-div-section {
@@ -306,7 +339,7 @@ main {
     width: 80%;
     height: 80%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: repeat(2, 45vh);
 }
 
 .item-evento-a {
@@ -536,24 +569,42 @@ footer {
 }
 .section-historia{
     height: 120vh;
-    background: radial-gradient(circle at 50% 50%, #f7f7eb, #dfe0d0, transparent 100%);
-    color: #835f04;
     font-weight: 300;
 }
 .container_historia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
     width: 80%;
+    height: 100vh;
 }
 .contain-historia{
+    grid-area: 1/1/3/2;
     display: flex;
+    background-image: url("../img/family.jpg");
+    background-size: contain;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     font-size: 2.5vw;
-    gap: 0.5rem;
+}
+.contain-txt-historia{
+    grid-area: 2/2/3/3;
+    background-image: url("../img/testura/fondo-c.jpg");
+    background-size: cover;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt{
+    width: 80%;
+    text-align: center;
+}
+.contain-img{
+    background-image: url("../img/testura/fondo-d.jpg");
+    background-size: cover;
 }
 .contain-btn{
     width: 45%;
@@ -580,6 +631,75 @@ footer {
     position: relative;
     z-index: 1;
 }
+.section-inicio{
+    width: 100%;
+    min-height: 100vh;
+}
+.container-video-card{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contain-video{
+    height: 70vh;
+    width: 20vw;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.contain-video:nth-child(1),
+.contain-video:nth-child(3){
+    height: 50vh;
+}
+.video-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contain-arrow-button{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60rem;
+}
+.button-arrow{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: #2d98a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(1px);
+}
+.img-cover{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+} 
+.contain-txt-inicio{
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain-txt-inicio p{
+    margin-top: 3rem;
+    width: 60%;
+    font-size: 3vw;
+
+}
+
 @media (min-width:320px) and (max-width: 768px) {
     .name{
         font-size: 25vw;

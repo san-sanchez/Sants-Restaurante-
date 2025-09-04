@@ -4,34 +4,34 @@
         "ciudad" : "Hurlingham",
         "ubicacion" : "av. Roca 1456",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/imageWeb/Crematto-BAGEL-CON-SALMON-4-1200x680-1-615x541.jpg"
+        "img" : "../img/local/local-1.jpg"
     },
     {
         "id" : 2,
         "ciudad" : "Palermo",
         "ubicacion" : "Av. del Libertador 4625 CABA",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/camila-pusch-eP9lFYMjM88-unsplash.jpg"
+        "img" : "../img/local/local-2.jpg"
     },
     {
         "id" : 3,
         "ciudad" : "Pilar",
         "ubicacion" : "Ruta Panamericana KM 43,5",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/duane-mendes-img3.jpg"
+        "img" : "../img/local/local-3.jpg"
     },
     {
         "id" : 4,
         "ciudad" : "San Isidro",
         "ubicacion" : "Av. del Libertador 15089",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/frederick-shaw-0iFoWp0OZrE-unsplash.jpg"
+        "img" : "../img/local/local-4.jpg"
     },
     {
         "id" : 5,
         "ciudad" : "Castelar",
         "ubicacion" : "Martín Fierro 3351, B1715BRG, Udaondo",
         "horario" : "9:00 AM - 22:00 PM",
-        "img" : "../img/cody-chan-img2.jpg"
+        "img" : "../img/local/local-5.jpg"
     }
 ]

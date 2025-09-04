@@ -1,7 +1,10 @@
+section{
+    background-color: #dad5bb;
+}
 .container_contacto{
     width: 100%;
     height: 120vh;
-    background-color: #dfe0d0;
+    background-image: radial-gradient(circle at 70% 140%, rgb(226, 199, 159) 10%, transparent 40%), radial-gradient(at 65% 140%, #ebd9a9 45%, transparent 110%), radial-gradient(at 85% 140%, #f5a700 40%, transparent 85%);
     color: aliceblue;
     font-size: 1.5vw;
     display: flex;
@@ -90,6 +93,8 @@ p{
 .contain_img_form{
     height: 100%;
     width: auto;
+    background-image: url("../img/testura/fondo-d.jpg");
+    background-size: cover;
 }
 .img_form{
     height: 100%;
@@ -123,6 +128,9 @@ footer{
         position: absolute;
         width: 100%;
         height: 100%;
+    }
+    .img_form{
+        display: none;
     }
     .container_oldForm{
         position: relative;
